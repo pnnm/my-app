@@ -6,6 +6,7 @@ public class Employee {
     String name;
     Integer salary;
     Integer age;
+
     Employee(String name, Integer salary, Integer age){
         this.name = name;
         this.salary=salary;
@@ -21,5 +22,14 @@ public class Employee {
 
     public Integer getAge() {
         return age;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", salary=" + salary +
+                ", age=" + age +
+                '}';
     }
 }

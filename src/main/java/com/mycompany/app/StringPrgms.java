@@ -29,6 +29,8 @@ public class StringPrgms {
         System.out.println("Enter Second String");
         str2 = scanner.nextLine();
 
+        str1.chars();
+
         char[] array1 = str1.toCharArray();
         char[] array2 = str2.toCharArray();
 
